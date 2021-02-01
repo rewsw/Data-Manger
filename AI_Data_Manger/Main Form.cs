@@ -25,6 +25,14 @@ namespace AI_Data_Manger
         {
             update_tree_list();
         }
+
+        public string Record_Data_path = "";
+        private void Start_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
         private bool create_tree(string path, TreeNodeCollection node)
         {
             DirectoryInfo dir = new DirectoryInfo(path);
