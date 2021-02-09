@@ -70,7 +70,7 @@ namespace AI_Data_Manger
         {
             FileStream fs = new FileStream(filePath, System.IO.FileMode.Open, System.IO.FileAccess.Read);
             StreamReader sr = new StreamReader(fs, Encoding.UTF8);
-            string strLine = "";
+            string strLine = "sss";
             int number = 0;
             while ((strLine = sr.ReadLine()) != null)
             {
